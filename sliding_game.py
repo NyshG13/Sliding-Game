@@ -2,6 +2,10 @@ import pygame
 import random
 pygame.init()
 
+pygame.mixer.music.load('sliding.mp3')
+pygame.mixer.music.set_volume(.5)
+pygame.mixer.music.play()
+
 window_width = 800
 window_height =600
 
